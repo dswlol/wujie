@@ -111,3 +111,5 @@ if (window.__POWERED_BY_WUJIE__) {
 ## 12、vite4 子应用样式切换丢失
 
 具体原因和解决办法详见[issue](https://github.com/Tencent/wujie/issues/434#issuecomment-1614089196)
+
+## 13、子应用资源可以正常加载，但是子应用的所有接口请求都报错CORS;报错信息如下 Access to XMLHttpRequest at 'http://localhost:9002/v1/user/user/details?uid=10' from origin 'http://localhost:9090' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: It does not have HTTP ok status.
